@@ -1,0 +1,94 @@
+﻿/********************************************************
+Настройка стилей окна выбора имени
+*********************************************************/
+
+#bg_ortcal_snames {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: normal;
+	border: 5px ridge #FFFFFF;
+	margin: 0px;
+	padding: 0px;
+	box-shadow: 0 0 5px;
+	width: 690px;
+/*	z-index: 2000; */
+	left: 250px;
+	top: 50px;
+	position: absolute;
+}
+#bg_ortcal_snames table {
+		border: 0px;
+		margin: 0px;
+		padding: 0px;
+		font-size: 12px;
+		line-height: normal;
+		text-align: center;
+}
+#bg_ortcal_snames td {
+		border: 0px;
+		margin: 0px;
+		padding: 0px;
+		text-align: center;
+		vertical-align:middle;
+}
+#bg_ortcal_snames img {
+		border: 0px;
+		margin: 0px;
+		padding: 0px;
+		vertical-align:middle;
+}
+#bg_ortcal_snames hr {
+	margin: 5px 0 5px;
+}
+#bg_ortcal_snames .bg_ortcal_header {	/* Заголовок					*/
+	color: white;					/* Цвет текста	*/
+	height: 70px; 
+	text-align: center;
+	font-weight: bold; 
+    font-size: 16px;
+    padding: 3px 5px;
+}
+#bg_ortcal_snames .bg_ortcal_footer {	/* Подвал						*/
+	color: white;					/* Цвет текста	*/
+	height: 60px; 
+	font-size: 16px;
+	text-align: center;
+}
+#bg_ortcal_snames .bg_ortcal_separator {	/* Разделитель					*/
+	background-image: url('separator.png');
+	height: 50px;
+}
+#bg_ortcal_snames .bg_ortcal_separator1 {	/* Разделитель	верх		*/
+	background-image: url('separator1.png');
+	height: 25px;
+}
+#bg_ortcal_snames .bg_ortcal_separator2 {	/* Разделитель	низ			*/
+	background-image: url('separator2.png');
+	height: 25px;
+}
+#bg_ortcal_snames .bg_ortcal_bottom1 {	/* Разделитель	верх		*/
+	height: 25px;
+}
+#bg_ortcal_snames .bg_ortcal_bottom2 {	/* Разделитель	низ			*/
+	height: 25px;
+}
+#bg_ortcal_snames .bg_ortcal_day {		/* Описание дня					*/
+	min-height: 200px;
+	padding: 6px;
+}
+/*********************************************************************
+Общие классы для вывода текста на экран 
+**********************************************************************/
+.bg_ortcal_curDate {			/* Обычная дата					*/
+	font-size: 16px;
+	font-weight: bold;
+}
+.bg_ortcal_holDate {			/* Празднечная дата				*/
+	color:red;						/* Цвет текста	*/
+	font-size: 16px;
+	font-weight: bold;
+}
+.bg_ortcal_holiday {			/* Праздник 					*/
+	color: red;						/* Цвет текста	*/
+	font-weight: bold;
+}
